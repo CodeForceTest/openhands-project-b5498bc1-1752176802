@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenHands - AI-Powered Development Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>OpenHands</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Code Smarter, Not Harder with 
+                <span class="gradient-text">AI-Powered Development</span>
+            </h1>
+            <p class="hero-description">
+                OpenHands is your intelligent coding companion that understands your codebase, 
+                writes clean code, and helps you ship faster than ever before.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Get Started Free</button>
+                <button class="btn btn-secondary">Watch Demo</button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-window">
+                <div class="window-header">
+                    <div class="window-controls">
+                        <span class="control red"></span>
+                        <span class="control yellow"></span>
+                        <span class="control green"></span>
+                    </div>
+                    <span class="window-title">main.py</span>
+                </div>
+                <div class="code-content">
+                    <div class="code-line">
+                        <span class="line-number">1</span>
+                        <span class="code-text"><span class="keyword">def</span> <span class="function">optimize_algorithm</span>():</span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">2</span>
+                        <span class="code-text">    <span class="comment"># AI suggests performance improvements</span></span>
+                    </div>
+                    <div class="code-line">
+                        <span class="line-number">3</span>
+                        <span class="code-text">    <span class="keyword">return</span> <span class="string">"Optimized code"</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Developers Love OpenHands</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>Intelligent Code Analysis</h3>
+                    <p>Deep understanding of your codebase with context-aware suggestions and automated refactoring.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast Development</h3>
+                    <p>Generate boilerplate code, write tests, and implement features in seconds, not hours.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Multi-Language Support</h3>
+                    <p>Works seamlessly with Python, JavaScript, TypeScript, Go, Rust, and 20+ other languages.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>Security First</h3>
+                    <p>Built-in security scanning and vulnerability detection to keep your code safe.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Seamless Integration</h3>
+                    <p>Integrates with your favorite IDEs, Git workflows, and CI/CD pipelines.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Performance Insights</h3>
+                    <p>Real-time code quality metrics and performance optimization suggestions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How OpenHands Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Connect Your Repository</h3>
+                        <p>Link your GitHub, GitLab, or Bitbucket repository in seconds.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>AI Analyzes Your Code</h3>
+                        <p>Our AI understands your codebase structure, patterns, and dependencies.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Start Coding with AI</h3>
+                        <p>Get intelligent suggestions, automated testing, and instant code reviews.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Choose Your Plan</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <div class="price">$0<span>/month</span></div>
+                    <ul class="features-list">
+                        <li>✓ 100 AI suggestions/month</li>
+                        <li>✓ Basic code analysis</li>
+                        <li>✓ 1 repository</li>
+                        <li>✓ Community support</li>
+                    </ul>
+                    <button class="btn btn-outline">Get Started</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Pro</h3>
+                    <div class="price">$29<span>/month</span></div>
+                    <ul class="features-list">
+                        <li>✓ Unlimited AI suggestions</li>
+                        <li>✓ Advanced code analysis</li>
+                        <li>✓ Unlimited repositories</li>
+                        <li>✓ Priority support</li>
+                        <li>✓ Custom integrations</li>
+                    </ul>
+                    <button class="btn btn-primary">Start Free Trial</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">Custom</div>
+                    <ul class="features-list">
+                        <li>✓ Everything in Pro</li>
+                        <li>✓ On-premise deployment</li>
+                        <li>✓ Custom AI models</li>
+                        <li>✓ Dedicated support</li>
+                        <li>✓ SLA guarantee</li>
+                    </ul>
+                    <button class="btn btn-outline">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Transform Your Development Workflow?</h2>
+            <p>Join thousands of developers who are already coding smarter with OpenHands.</p>
+            <button class="btn btn-primary btn-large">Start Your Free Trial</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>OpenHands</h3>
+                    <p>AI-powered development assistant for modern developers.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 OpenHands. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
